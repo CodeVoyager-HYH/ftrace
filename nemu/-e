@@ -1,0 +1,11 @@
+[1;34m[src/utils/log.c:30 init_log] Log is written to -e[0m
+[1;34m[src/memory/paddr.c:50 init_mem] physical memory area [0x80000000, 0x87ffffff][0m
+[1;34m[src/monitor/monitor.c:62 load_img] The image is /home/hh/ysyx-workbench/am-kernels/tests/cpu-tests/build/nemu-log.txt, size = 726[0m
+[1;34m[src/monitor/monitor.c:28 welcome] Trace: [1;32mON[0m[0m
+[1;34m[src/monitor/monitor.c:29 welcome] If trace is enabled, a log file will be generated to record the trace. This may lead to a large log file. If it is not necessary, you can disable it in menuconfig[0m
+[1;34m[src/monitor/monitor.c:32 welcome] Build time: 17:49:10, Oct 15 2024[0m
+0x80000000: 3b 31 5b 1b 
+[1;34m[src/cpu/cpu-exec.c:227 cpu_exec] nemu: [1;31mABORT[0m at pc = 0x80000000[0m
+[1;34m[src/cpu/cpu-exec.c:191 statistic] host time spent = 356 us[0m
+[1;34m[src/cpu/cpu-exec.c:192 statistic] total guest instructions = 1[0m
+[1;34m[src/cpu/cpu-exec.c:193 statistic] simulation frequency = 2,808 inst/s[0m
